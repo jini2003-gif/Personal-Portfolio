@@ -865,8 +865,7 @@ footer{
   padding:2.6rem 0;
 }
 .footer__inner{
-  display:flex; align-items:center; justify-content:space-between;
-  flex-wrap:wrap; gap:1rem;
+  background: var(--ink); color: var(--text-inverse-muted); padding: 28px 24px; text-align: center; font-size: 0.8rem; font-family: var(--font-mono);
 }
 .footer__inner p{ color:var(--fog-dim); font-size:.82rem; }
 .footer__social{ display:flex; gap:.8rem; }
